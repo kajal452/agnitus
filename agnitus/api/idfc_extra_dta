@@ -1,0 +1,14 @@
+
+
+$datavalue['pl_customer_relationToCustomer']= $this->input->post('RelationToCustomer');
+ $datavalue['pl_customer_referenceRelationToCustomertitle']= $this->input->post('referenceRelationToCustomertitle');
+  $datavalue['pl_customer_referenceRelationToCustomerfname']= $this->input->post('referenceRelationToCustomerfname');
+ $datavalue['pl_customer_referenceRelationToCustomermname']= $this->input->post('referenceRelationToCustomermname');
+  $datavalue['pl_customer_referenceRelationToCustomerlname']= $this->input->post('referenceRelationToCustomerlname');
+ $datavalue['pl_customer_referenceRelationToCustomermobile']= $this->input->post('referenceRelationToCustomermobile');
+ $datavalue['pl_customer_relationToCustomer2']= $this->input->post('relationToCustomer2');
+ $datavalue['pl_customer_referenceRelationToCustomertitle2']= $this->input->post('referenceRelationToCustomertitle2');
+  $datavalue['pl_customer_referenceRelationToCustomerfname2']= $this->input->post('referenceRelationToCustomerfname2');
+ $datavalue['pl_customer_referenceRelationToCustomermname2']= $this->input->post('referenceRelationToCustomermname2');
+  $datavalue['pl_customer_referenceRelationToCustomerlname2']= $this->input->post('referenceRelationToCustomerlname2');
+ $datavalue['pl_customer_referenceRelationToCustomermobile2']= $this->input->post('referenceRelationToCustomermobile2');

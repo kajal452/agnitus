@@ -1,0 +1,31 @@
+{
+  "short_name": "2TIC",
+  "name": "2TIC",
+  "theme_color": "#8279fe",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "https://www.ttiicsenegal.com/assets/images/launcher-icon-1x.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "https://www.ttiicsenegal.com/assets/images/launcher-icon-2x.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "https://www.ttiicsenegal.com/assets/images/launcher-icon-3x.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "https://www.ttiicsenegal.com/assets/images/launcher-icon-4x.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  
+  "start_url": "https://www.ttiicsenegal.com/"
+}

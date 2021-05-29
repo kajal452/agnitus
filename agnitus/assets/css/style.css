@@ -1,0 +1,1300 @@
+@import url("fontastic_icon.css");
+
+@font-face {
+  font-family: "untitled-font-2";
+  src:url("https://netleafinfosoft.com/2tic/assets/fonts/untitled-font-2.eot");
+  src:url("https://netleafinfosoft.com/2tic/assets/fonts/untitled-font-2.eot?#iefix") format("embedded-opentype"),
+    url("https://netleafinfosoft.com/2tic/assets/fonts/untitled-font-2.woff") format("woff"),
+    url("https://netleafinfosoft.com/2tic/assets/fonts/untitled-font-2.ttf") format("truetype"),
+    url("https://netleafinfosoft.com/2tic/assets/fonts/untitled-font-2.svg#untitled-font-2") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+html {height: 100%;}
+body {font-family: 'PT Sans', sans-serif !important; font-size: 15px !important; min-height: 100%; position: relative;  margin: 0;}
+
+header { width: 100%; background: #fff; padding-bottom: 15px; }
+.error {
+      color: red!important;
+   }
+/*start sub total css*/
+.subtotal_head_box{
+	background: #8279fe;
+	padding: 15px;
+	text-align: center;
+	color: #fff;
+	margin-top: 10px;
+	font-weight: bold;
+}
+.subtotal_head_box p{
+	font-weight: 800;
+	margin-bottom: 0px;
+}
+.subtotal_head_box p.subtotalfirst_head{
+	text-align: left!important;
+}
+.doctors_name p.doctors_name_p_tag{
+	margin-bottom: 0px;
+}
+.book_point_box button.bookappointment {
+	border:transparent;
+	background:#8279fe;
+	color:#fff;
+    padding: 8px 20px;
+    display: block;
+    margin: 0 auto;
+    /*margin-top: 25px;*/
+    margin-top: 70px;
+}
+.book_point_box a{
+	text-decoration: none!important;
+}
+.doctors_name > .doctor_number {
+    margin-top: 10px !important;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.doctors_name > .doctor_address {
+    margin-top: 0px !important;
+    margin-bottom: 0px;
+    
+}
+.doctor_number i{
+	transform: rotate(90deg);
+margin-right: 5px;
+}
+.doctor_address i{margin-right: 10px;}
+
+.botslider { margin-top:20px;}
+/*end sub total css*/
+
+.header2 { border-bottom: 1px solid #f1f1f1; }
+.mobbtn { font-size: 24px; color: #333; border:none; background: transparent; margin-top:18px; }
+.mobbtn:focus { outline: none; border:none; }
+.logoimg { float: left; margin-top:10px; }
+.navlogo { display: none; }
+.closenav { display: none; }
+.navigation { margin:10px 0 0; padding: 0; float: right; }
+.navigation li { list-style: none; float: left; }
+.navigation li a { color: #363636; display: block; font-weight: 600; font-size: 16px; padding: 15px 8px; }
+.navigation li a > span {clear: both; display: block; font-size: 11px; color: #b7b3b3; font-weight: normal;}
+.navigation li:hover a, .navigation li.active a { text-decoration: none; color: #8279fe; }
+.mobnavextra { display: none; }
+.loginsection { border:1px solid rgb(233, 233, 233); padding: 0px; margin: 18px 0 0; border-radius: 20px;  display: flex;}
+.loginsection li { list-style: none; width: 100%; /*width: 50%;*/ position: relative; float: left; border-right: 1px solid rgb(233, 233, 233); }
+.loginsection li:last-child { border-right: none; }
+.loginsection li a { display: block; text-decoration: none; text-align: center; padding: 5px 0px; color: #363636; font-weight: 600; font-size: 16px; color: #363636; }
+.loginsection li:first-child:hover a { background: #f9f9f9; border-radius: 20px; }
+/*.loginsection li:last-child:hover a { background: #f9f9f9; border-radius: 0px 20px 20px 0px; }*/
+.loginsection li a img { padding-right: 10px; }
+.loginbord { background: #ddd; width: 90%; }
+.homesearch { position: relative; margin-top:15px; display: flex;     border-right: 1px solid transparent!important;
+    text-overflow: ellipsis;  border: 1px solid rgb(227, 227, 227); color: #cecece;
+    background-color: rgb(255, 255, 255);    border-radius: 30px 0 0 30px; }
+.homesearch2 {position: relative; margin-top:15px; display: flex; border-left: none;  border: 1px solid rgb(227, 227, 227);
+    text-overflow: ellipsis; color: #cecece; background-color: rgb(255, 255, 255); border-radius: 0px 30px 30px 0px;}
+.homeselcity { width: 100%; border:none !important; border-right: 1px solid transparent!important; text-overflow: ellipsis; border:1px solid rgb(227, 227, 227); padding: 10px 15px 10px 40px; color: #7b7b7b; background-color: rgb(255, 255, 255); border-radius: 30px 0 0 30px; outline: none; }
+.homelocdet { width: 100%; border:none !important; border:1px solid rgb(227, 227, 227); text-overflow: ellipsis; padding: 10px 15px 10px 45px; color: #7b7b7b; background-color: rgb(255, 255, 255); border-radius: 0px 30px 30px 0px; outline: none; }
+/*.homeselcity:before { content: 'A'; display: inline-block; position: absolute; left: 10px; top: 10px; font-family: Font Awesome 5 Free; }*/
+.homesearch > span.locicon, .homesearch2 > span.locicon { position: absolute; left: 20px; top: 9px; color: #cecece; }
+.homesearch > span.detect { position: absolute; font-family: 'PT Sans', sans-serif; right: 20px; top: 8px; background: #f1f1f1; color: #363636; padding: 2px 5px; font-size: 14px; cursor: pointer; }
+ .homesearch > span.detect > i { vertical-align: middle; position: relative; top: 1px; }
+.homeselcity::placeholder { color:#7b7b7b;}
+.homeselcity::ms-input-placholder  { color:#7b7b7b;}
+.cartheader { background: #fff; box-shadow: 0px 5px 8px #eee; padding-bottom: 15px; }
+.plfr { margin:15px 0 0; padding: 0; float: left;}
+.plfr li { list-style: none; float: left; }
+.plfr li:nth-child(2) { background: #8279fe; color: #fff;  margin: 0 8px; border-radius: 50%; width: 35px; height: 35px; }
+.plfr li:nth-child(2) a { color: #fff; font-size: 16px; display: block; padding-top:5px; font-weight: 500; text-align: center; text-transform: uppercase; }
+.plfr li a { font-size: 14px; font-weight: 600; color: #363636; display: block; padding-top: 6px; }
+.plfr li:hover a { text-decoration: none; }
+
+.topcart:hover { text-decoration: none; }
+.topcart { position: relative;text-align: center; display: inline-flex; color: #8279fe ; border-radius: 2px; font-size: 17px; /*margin-top:14px;*/ float: right; padding: 20px 0 0px; }
+.topcart > span { font-size: 11px; margin:0 6px 0 0; display: inline-block; background: #fff; color: #8279fe; border-radius: 4px; }
+
+.emptycart { font-size: 14px; padding: 10px 25px;  font-weight: 600; text-transform: uppercase; display: inline-block;
+    margin-right: 20px;}
+a.emptycartsignup {background: #f4ed2a; color:#000 !important;}
+a.emptycartlogin { background:#8279fe; color:#fff !important;}
+a.emptycart:hover { text-decoration:none;}
+/*.swapmenu {  display: none;}*/
+
+
+/* Slider */
+.slidermrgn { margin-top: 0px; }
+.carousel-caption { bottom:0px !important; top: 18% !important; text-align: left !important; }
+.carousel-caption > h5 { font-size: 40px; font-weight: 700; color: #273344; }
+.carousel-caption > p { font-size: 15px; color: #686c73; width: 50%; text-align: justify; }
+
+/* Nearest Hospital */
+.nearhosp { display: block; margin-bottom: 15px; margin-top:15px; box-shadow:0 1px 5px 0 rgba(0,0,0,.16); padding-bottom:15px; height:365px; overflow:hidden; }
+.nearhosp a:hover { text-decoration: none; }
+.homnearhos_img { width: 100%;height:200px; object-fit: fill; margin:auto; display: block; border-radius: 6px 6px 0 0;background-color: rgb(255, 255, 255); box-shadow: 0px 0px 10px 0px rgba(47, 47, 47, 0.1);}
+.hospitaladd, .posrel { position: relative; }
+.hospitadd_icon { position: absolute; left: 0; top: 15px; font-size: 14px; color: #686c73; margin-left:10px;}
+.hospitadd_txt {  color: #686c73; padding:15px 0 0 30px; min-height: auto; `margin:auto; }
+.hospitadd_txt2 {  color: #686c73; padding:15px 0 0 10px; margin:auto; }
+.hospit_drname { font-size: 16px; color: #1d1d1d; font-weight: 600; margin:0; padding:15px 10px 0; }
+.hospittxt_readmore { color: #060505; padding: 20px 0 10px; display: block; font-weight: 600; }
+.homeviewall { display: block; position: absolute; right: 0; top: 27px; font-size:14px; font-weight: 600; }
+.homeviewall:hover { text-decoration: none; }
+.callnow { font-weight: bold; color: #363636; text-align: left; display: block; padding:5px 10px;}
+.callnow2 { font-weight: bold; color: #363636; display: block; padding:5px 10px;}
+.callnow:hover, .callnow2:hover { text-decoration: none; }
+.hostpicon {font-size: 28px;  position: relative; top: 14px; color: #8279fe;}
+.hostpifacility { margin: 0px; padding: 0px; }
+.hostpifacility li { list-style: none; display: inline-block; margin-right: 10px; }
+.hostpifacility li > span { position: relative; top: 5px; }
+.hostpitiming { padding: 10px 0; font-size: 15px; }
+.nav-link { padding: .5rem 0.6rem!important; font-size: 14px; }
+.shortdesc { padding-top: 15px; }
+.hospitaldrlist { background: #f9f9f9; margin-bottom: 15px; }
+button.hostpitalbooking {background: #8279fe!important; color: #fff; border: none; outline: none; padding: 10px 20px!important; text-align: center; display: block; margin-top: 20px; cursor: pointer;} 
+.hospitalmodalbooking {background: #8279fe!important; color: #fff; border: none; outline: none; padding: 8px 20px!important; text-align: center;  display: block;}
+.drbookapnt2 { box-shadow: 0px 2px 8px #eee; padding: 20px 20px; background: #fff; }
+.hostabhding { font-size: 18px; font-weight: 600; padding: 0px 0 10px; display: block; margin: 0; }
+.hostablist { margin: 0px; padding: 0px; }
+.hostablist li { list-style: none; /*float: none;*/ width: 32%; display: inline-block; padding-right:20px; /*padding-left: 20px;*/  line-height: 3; position: relative; }
+.hostablist li > i { color: #8279fe; }
+/*.hostablist li:before { content: "\e0af"; color: #8279fe; font-family: "untitled-font-2" !important; font-style: normal !important; position: absolute; left: 0; }*/
+.hostabfaclity { margin: 0px; padding: 0px; }
+.hostabfaclity li { list-style: none; /*float: none;*/ width: 32%; display: inline-block; padding-right:20px; line-height: 3;  }
+.hostabfaclity li > i { color: #8279fe; position: relative; top: 2px; }
+.asshos {background: #f9f9f9; padding: 15px 0px; margin-bottom: 15px;}
+
+/* Nearest Labs */
+.labsbox { border-radius: 6px; min-height: 520px; padding: 20px; background-color: rgb(255, 255, 255);  box-shadow: 0px 0px 10px 0px rgba(47, 47, 47, 0.1); margin-bottom: 30px;}
+.labslogo_outline { border-width: 1px; border-color: rgb(242, 242, 244);  border-style: solid; border-radius: 6px; background-color: rgb(255, 255, 255);/* margin: 12px 0;*/}
+.labslogoimg { margin: auto; display: block; padding: 40px 0; }
+.labsname { font-size: 18px; font-weight: 600; color: #273344; text-align: center; padding: 10px 0; }
+.homnearlab_img { width: 100%;height:145px; object-fit: cover; margin:auto; display: block; margin-bottom: 20px; border-radius: 6px;background-color: rgb(255, 255, 255); /*box-shadow: 0px 0px 10px 0px rgba(47, 47, 47, 0.1);*/}
+/*  carousel button */
+
+.owl-carousel .owl-nav { position: absolute; top: 30%; right: 0; left: 0;}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev { display: none; outline: none; color: #565454; background: #f9f9f9 !important; border-radius: 50%; box-shadow: 0px 0px 4px #ccc;  font-size: 50px; position: absolute; bottom: 0px; right: 0;  }
+.owl-carousel .owl-nav button.owl-next > span, .owl-carousel .owl-nav button.owl-prev > span { outline: none; display: block; color:#363636; padding: 0px 15px;  font-size: 25px;  border-radius: 50%;  }
+.owl-carousel .owl-nav button.owl-next { right:-21px; }
+.owl-carousel .owl-nav button.owl-prev {  left: -20px; }
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled { display: block!important; }
+
+.owl-carousel button.owl-dot {background:#ddd; padding:10px !important; border:1px solid #ddd; margin-right:5px;}
+
+/* Pharmacy carousel button */
+.owl-carousel2 .owl-nav { position: absolute; top: 50%; right: 0; left: 0;}
+.owl-carousel2 .owl-nav button.owl-next, .owl-carousel2 .owl-nav button.owl-prev { display: block; outline: none; color: #565454; background: #f9f9f9 !important; border-radius: 50%; box-shadow: 0px 0px 4px #ccc;  font-size: 50px; position: absolute; bottom: 0px; right: 0;  }
+.owl-carousel2 .owl-nav button.owl-next > span, .owl-carousel2 .owl-nav button.owl-prev > span { outline: none; display: block; color:#363636; padding: 0px 15px;  font-size: 25px;  border-radius: 50%;  }
+.owl-carousel2 .owl-nav button.owl-next { right:-21px; }
+.owl-carousel2 .owl-nav button.owl-prev {  left: -20px; }
+.owl-carousel2 .owl-dots.disabled, .owl-carousel2 .owl-nav.disabled { display: block!important; }
+/* Pharmacy product price carouse */
+.pharm_prdtbtn .owl-dots, .pharm_prdtbtn .owl-nav {  position: absolute; top: 50%; right: 0; left: 0; }
+.pharm_prdtbtn .owl-nav button.owl-next, .pharm_prdtbtn .owl-nav button.owl-prev { display: none; background: #000!important; transition: all 0.4s;}
+.pharm_prdtbtn:hover .owl-nav button.owl-next, .pharm_prdtbtn:hover .owl-nav button.owl-prev { display: block !important; background: #000!important; transition: all 0.4s;}
+.pharm_prdtbtn .owl-nav button.owl-next { right: 0; }
+.pharm_prdtbtn .owl-nav button.owl-prev {left: 0;}
+.pharm_prdtbtn .owl-nav button.owl-next > span, .pharm_prdtbtn .owl-nav button.owl-prev > span { color: #fff !important; padding: 0px 12px !important; font-size:20px !important; }
+
+#owl-example4 .owl-nav button.owl-next, #owl-example4 .owl-nav button.owl-prev { display:none !important;}
+
+.pharmacybg { background: #2bb7f6 url(../images/white-transparency.png) no-repeat; min-height: 240px; margin-bottom: 40px; /*padding: 12px 0;*/ padding: 4px 0 0; border-radius: 6px;  background-color: rgb(40, 182, 246);   box-shadow: 0px 0px 10px 0px rgba(47, 47, 47, 0.1); }
+.pharmacy_hding { padding: 78px 0 0px 30px; font-size: 23px; font-weight: 600; color: #fff; }
+.pharmlink { padding: 0 0 20px 30px; font-size: 16px; color: #fff; font-weight: 600; }
+.pharmlink:hover { text-decoration: none; }
+
+.homefirebr_bg { background: #ff6969 url(../images/white-transparency2.png) no-repeat; min-height: 240px; padding: 50px 20px 50px 0; border-radius: 6px;   box-shadow: 0px 0px 10px 0px rgba(47, 47, 47, 0.1); }
+.homefirebr_hding { padding: 35px 0 0px 30px; font-size: 23px; font-weight: 600; color: #fff; }
+.homefirebrimg { margin-top:10px; }
+
+.card-body { padding: 0px !important; }
+span.downarrow,  span.uparrow { display: none; }
+
+.prodquantity { font-size: 14px; color: #333; }
+.proddiscount { color: #bfbbbb; font-size: 14px; margin: 0px; font-weight: 600; } 
+.proddiscount > span { color: #4ec305; font-weight: 600; }
+
+/* Download app */
+
+.dowbloadaap_bg { background: #f6f6f6; padding: 45px 0; margin-top: 40px; }
+.downloadapp_hding { font-size: 36px; color: #8279fe; font-weight: 600; padding: 160px 40px 20px; text-align: center;  line-height: 1.5;  }
+.downloadapp_hding:before { content: ''; background: url(../images/app-arrow.png) no-repeat; ; width: 74px; height: 127px; margin-top: 55px; display: block; position: absolute; }
+.appbtn_pos { width: 390px; display: block; margin: auto; }
+.appbtn { margin:0 20px 20px; }
+/* Footer */
+footer { background: #fff;  }
+.footer { background: #ecf2f7 !important; }
+.footer_hding { font-size: 18px; font-weight: 600; color: #414146; padding: 40px 0 15px; }
+.footer_nav { margin: 0 0 30px; padding: 0; }
+.footer_nav li { list-style: none; float:none;}
+.footer_nav li a { display: block; padding: 5px 0; color: #414146; }
+.footer_nav li:hover a { text-decoration: none; }
+.copyright_line { width: 100%; border-top: 1px solid #d8d8d8; }
+.copyright_txt { color: #414146; padding-top: 10px; margin:0;  }
+.copyright_txt > span { color: #3b5abc; font-weight: 600;  }
+.poweredby { text-align: right; color: #414146; padding-top: 10px; }
+.poweredby a { color: #3b5abc; font-weight: 600; }
+.poweredby a:hover { text-decoration: none; }
+a.ftrtitle:hover { text-decoration: none; }
+
+/*-----------------------
+    Login Signup
+-------------------------*/
+
+.tc-tabs-style3 .tc-tab-title {margin: 0 0 15px 0;font-size: 20px;line-height: normal;}
+.tc-tabs-style3 .tc-tab-desc {font-size: 13px;}
+.tc-tabs-style3 .tab-content {margin-top: 35px;}
+.tc-tabs-style3 .nav-tabs {border-bottom: 0;}
+.tc-tabs-style3 .nav-tabs li:first-child { padding-right: 30px; }
+.tc-tabs-style3 .nav-tabs li a {position: relative;display: inline-block;border: 0 !important;border-radius: 0;line-height: normal;font-size: 16px;color: #777;border-radius: 20px;padding: 0 0 10px 0;margin-right: 15px;margin-bottom: 4px;background: transparent !important;}
+.tc-tabs-style3 .nav-tabs li a:after {content: '';position: absolute;left: 0;bottom: 0;height: 2px;width: 0;background: #444;-webkit-transition: all .4s ease;transition: all .4s ease;}
+.tc-tabs-style3 .nav-tabs li a:hover, 
+.tc-tabs-style3 .nav-tabs li a.active  {color: #222; text-decoration: none; font-weight: 600;}
+.tc-tabs-style3 .nav-tabs li a:hover:after {width: 30%;}
+.tc-tabs-style3 .nav-tabs li a.active:after {width: 100%;}
+.tab-content .in { opacity: 1 !important; }
+.loginsignup { margin-top: 40px; }
+.logsignform { border:1px solid #f3f1f1; padding: 20px; border-radius: 4px; margin-bottom: 30px;  }
+.logsignfield label {  color: #a7a2a2;}
+.hidechklog { opacity: 0; z-index: 1; position: absolute; width: 15px; height: 15px;  top: 3px; }
+.logsignchkbox {padding-left: 20px; font-size: 14px;}
+.logsignchkbox:before {  content: ''; position: absolute; display: block; left: 0; width: 15px; height: 15px; border: 1px solid #c5c1c1; top: 3px; }
+.hidechklog:checked + .logsignchkbox:before { content: "\e0d1"; font-family: "customad-font-2" !important; color: #fff; background: #4469fd; border: none;  position: absolute; display: block; }
+.logforgtpass { text-align: right; float: right; font-size: 14px; color: #3e93ef; }
+.logforgtpass:hover { text-decoration: none; }
+.posrel2 { position: relative; margin-bottom: 0px !important; }
+.loginbtn { width: 100%; background: #338cea!important; border-color: #338cea !important; }
+.or { color: #ddd; text-align: center; }
+.or:before { content: ''; width: 45%; border-bottom: 1px solid #ddd; position: absolute; left: 0; margin-top: 10px; }
+.or:after { content: ''; width: 45%; border-bottom: 1px solid #ddd; position: absolute; right: 0; margin-top: 10px; }
+.logfb-btn { background: #3b5a97 !important; border-color: #3b5a97 !important; width: 100%; text-align: center; margin: 10px 0; }
+.logfb-btn > i { float: left; font-size: 24px; }
+.logimg {  margin:0px auto 0; display: block;  }
+.signupterms { text-align: right; font-size: 10px; color: #666; margin: 0; }
+.iti { display: block !important; }
+.forgetpasshding { font-size: 18px; font-weight: 600; border-bottom: 1px solid #ddd; padding-bottom: 10px; }
+.forgetpassprgh { font-size: 13px; padding: 5px 0; }
+
+/* Stop fixed position at footer */
+#sidebar{  float: left; color: #ffbdbd; width: 100%; will-change: min-height;}
+#sidebar .sidebar_inner{ padding: 10px 10px 1px 10px; position: relative; transform: translate(0, 0);transform: translate3d(0, 0, 0); will-change: position, transform;}
+
+/* Doctor appointment */
+.docoters_img_box_btns > button:hover:nth-last-child(2) {box-shadow: inset -250px 0px 0px #8279fe; color: #fff; transition: 0.8s;}
+.apointhding { color: #2f2f2f; padding: 30px 0 0px; text-align: center; }
+.appoint_tablistbg { background: #8279fe !important; padding: 3px 0; }
+/*ul.appoint_tablistbg li { width: 25% !important; }*/
+ul.appoint_tablistbg li a.nav-link { padding-left: 40px; color: #fff !important; display: inline-block; padding: 4px 20px; margin: 0px 55px 0 !important; }
+ul.appoint_tablistbg li:hover a.nav-link ,ul.appoint_tablistbg li a.nav-link.active { background: #fff !important; color: #333 !important; border-radius: 30px!important;  }
+.apointtime { padding: 6px 10px; color: #2f2f2f; }
+.appointmenttable { margin:15px 0; padding: 0; width: 100%; }
+.appointmenttable li { width: 20%; margin-right: 20px; margin-bottom: 5px; list-style: none; float: left; border:1px solid #cccccc; text-align: center; padding: 5px 0px; display: block; }
+.appointmenttable li a { color:#363636; }
+.appointmenttable li:hover a { text-decoration: none; }
+.groupicontxt { margin:20px 0 25px; }
+.reqappoint { border: 1px solid #8279fe; padding: 10px 30px; color:#8279fe;  display: inline-block; text-align: center; margin: 25px 0 0; transition: 0.8s; }
+.reqappoint:hover { text-decoration: none; box-shadow: inset -250px 0px 0px #8279fe; color: #fff; transition: 0.8s; }
+.cancelappnt{border: 1px solid #8279fe !important; color: #8279fe; text-decoration: line-through; }
+.appointmenttable li.cancelappnt a {color: #8279fe; cursor: default;}
+.hideshowbooking { display: none; }
+.mobfilter { display: none; color: #fff; text-align: right; margin:0; padding-left: 8px; }
+.mobfilter i {font-size:14px;}
+.filterclose, .showmobfilter { display: none; }
+.connectlist, .connectlist2 { margin: 0px; padding: 0; display: inline-flex; }
+.connectlist li, .connectlist2 li { list-style: none; float:left; }
+.connectlist li a { padding:0px 10px 0; display: block; color: #333; font-weight: 600; }
+.connectlist2 li a { padding:0px 10px 0; display: block; color: #333; font-weight: 600; }
+.connectlist li:first-child a, .connectlist2 li:first-child a { padding-left: 0; }
+.connectlist li a > i, .connectlist2 li a > i { font-size: 20px; vertical-align: sub; }
+.connectlist li:hover a, .connectlist2 li:hover a { text-decoration: none; }
+.bookappointment { margin-top: 15px; }
+.docoters_img_box_btns button {    float: right;  border: transparent; background-color: transparent; border: 1px solid #8279fe; transition: 0.8s; color: #8279fe;
+    padding: 10px 12px !important;
+    right: 0px !important; 
+    /*margin-left: 10px!important;     margin-top: 5px;*/}
+.docoters_img_box_btns button:hover {box-shadow: inset -250px 0px 0px #8279fe; color: #fff; transition: 0.8s;}
+.callingno {
+	float: right;
+	border:transparent;
+	background-color: transparent;
+	border:transparent;
+	color:#2f2f2f;
+	padding: 10px 12px !important;
+	display: block;
+	margin-top: 12px !important;
+	position: relative;
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+}
+.callingno:after {
+	position: absolute;
+	content: '';
+	width: 17px;
+	height: 17px;
+	background-image: url("../images/phone-icon.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	top: 12px;
+	left: -12px;
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+}
+.callingno:hover {
+	text-decoration: none;
+ 	color: #8279fe;
+ }
+ .callingno:hover:after {
+ 	background-image: url("../images/phone-iconh.png");
+	left: -15px;
+ }
+.get_directionbtn {
+	border: transparent;
+	background-color: transparent;
+	font-weight: 400;
+	color: #8279fe;
+	padding: 5px 10px;
+	border: 1px solid #8279fe;
+	margin-left: 30px;
+	transition: 0.8s;
+}
+.get_directionbtn:hover {
+	box-shadow: inset -250px 0px 0px #8279fe;
+    color: #fff;
+    transition: 0.8s;
+    text-decoration: none;
+}
+.docoters_img_box { padding: 15px 0; }
+.docoters_img_box > img { height: 200px; width: 100%; object-fit: cover; }
+.docoters_img_box_profile {padding: 15px; height: 100%;}
+.docoters_img_box_profile > img { width: 100%; height: 100%; object-fit: cover; }
+.docor_exper2 { position: relative; padding-left: 30px; }
+.docor_exper2 > i { color: #8279fe; font-size: 20px; position: absolute; left:0;  }
+.no-qa { text-align: center; padding: 20px 0; }
+.no-qatxt { width: 50%; margin:auto; padding: 20px 0;   }
+.ask_qusn { background: #8279fe; padding: 10px 20px; color: #fff; }
+.ask_qusn:hover { text-decoration: none; color: #fff; }
+.patientab_media { margin-bottom: 20px; }
+.patientab_hding { font-size: 16px; font-weight: 600; }
+.rating_num { color: #e7711b; font-size: 13px; }
+.stars-rating {color: #e7711b; font-size: 13px; display: inline-block;}
+.stars-rating_disable { color: #888; }
+.total-review { color: #888; font-size: 13px; }
+.reviewrow { position: relative; margin: 15px 0; }
+.review_img { width: 50px; height: 50px; border-radius: 50%; position: absolute; left: 0; margin-right: 5px; }
+.review_name { font-size: 16px; font-weight: bold; margin:0; }
+.review_txt { color: #888; }
+.write_review {/* position: absolute; right: 0; top: 0;*/ float:right; background: #8279fe; color: #fff; padding: 7px 15px; text-align: center;}
+.write_review:hover { text-decoration: none; color: #fff; }
+.write_review:visited { color: #fff; }
+/* show read more or less text */
+.addReadMore.showlesscontent .SecSec,
+.addReadMore.showlesscontent .readLess {
+    display: none;
+}
+
+.addReadMore.showmorecontent .readMore {
+    display: none;
+}
+
+.addReadMore .readMore,
+.addReadMore .readLess {
+    margin-left: 2px;
+    color: #8279fe;
+    cursor: pointer;
+    padding-bottom: 15px;
+}
+
+	.readMore, .readLess { clear:both; display: block; text-align: right; }
+.addReadMoreWrapTxt.showmorecontent .SecSec,
+.addReadMoreWrapTxt.showmorecontent .readLess {
+    display: block;
+}
+
+.viewprofilebtn { text-align: center; display: block; margin-top: 5px; border: transparent; background-color: #8279fe; color: #fff!important; border: 1px solid #8279fe; transition: 0.8s; color: #8279fe;
+    padding: 10px 12px !important; right: 0px !important; }
+.viewprofilebtn:hover {box-shadow: inset -250px 0px 0px #8279fe; text-decoration: none; color: #fff; transition: 0.8s;}
+.viewprofilebtn2 { text-align: center;  margin-top: 5px; border: transparent; background-color: #8279fe; color: #fff!important; border: 1px solid #8279fe; transition: 0.8s; color: #8279fe;
+    padding: 10px 12px !important;  }
+.profilecontlist { margin: 0; padding: 0; }
+.profilecontlist li { list-style: none; float: none; line-height: 2; color: #666; }
+.profilecontlist li a { display: inline-block; color: #666; }
+.profilecontlist li:hover a { color: #666; text-decoration: none; }
+.profilecontlist li > i, .profilecontlist li a > i  { position: relative; top: 1px; color: #8279fe; font-size: 16px; }
+.profilecontlist li > svg {width: 19px; fill: #8279fe; position: relative; top: -2px;}
+
+/* Pharmacy */
+.pharmacy_title { text-align: left; color: #333; font-size: 18px; padding: 0px 0 0; }
+.pharm_product {border-radius: 8px; position: relative; margin-bottom: 30px; overflow: hidden; }
+.pharm_product > img { border-radius: 8px; transform: scale(1); transition: all 0.3s; }
+.pharm_prodhding { color: #fff; font-size: 24px; text-transform: uppercase; position: absolute; top: 0; padding: 50px 0 0 30px; line-height: 1.2; }
+.pharm_prodhding > span , .pharm_prodhding2 > span { font-size: 18px;  clear: both; display: block;}
+.pharm_product:hover > img  { transform: scale(1.1);  transition: all 0.3s;}
+.pharm_prodhding2 {color: #363636; font-size: 24px; text-transform: uppercase; position: absolute; top: 0; padding: 50px 0 0 30px; line-height: 1.2;}
+.pharm_shop { display: block; margin-bottom: 15px; box-shadow: 0px 0px 10px 0px rgba(47, 47, 47, 0.1);}
+.pharm_prodtitle { font-size: 15px; padding-left: 15px; }
+.pharm_prodprice { padding-left: 15px; color:#333; padding-bottom: 30px; display: block;  }
+.pharmacy-gallery { width: 25%; float: left; }
+.pharmaclist, .pharmaclist2 { margin: 0; padding: 0; }
+.pharmaclist li, .pharmaclist2 li { list-style: none; float: none; line-height: 2; color: #666; /*position: relative;*/ }
+.pharmaclist li > i, .pharmaclist2 li > i  { padding-right: 10px;  }
+.pharmaclist li > span, .pharmaclist2 li > span { position: absolute; }
+.pharmaclist li:last-child {margin-bottom: 40px;}
+.productmneu_bg { box-shadow: 0px 5px 8px #eee; }
+.products_menu { margin: 0px; padding: 5px 0px;  }
+.products_menu li { list-style: none; float: left; transition: all 0.3s; }
+.products_menu li a { display: block; padding: 15px 25px; color: #363636; font-weight: 600; position: relative; }
+.products_menu li:hover a { text-decoration: none; color: #8279fe; }
+.products_menu li .product_submenu { animation: productsubmenu 0.3s; display: none; margin: 0px; padding: 0; position: absolute; background: #fff; z-index: 9; box-shadow: 0px 3px 4px #eee; transition: all 0.3s; }
+.products_menu li:hover .product_submenu { display: block; }
+.products_menu .product_submenu li { list-style: none; float: none; }
+.products_menu .product_submenu li a { display: block; padding: 10px 20px; }
+.products_menu li:hover .product_submenu li a { color: #363636; }
+
+.lefcategnav { margin: 0 0px 20px; padding: 5px 0px;  }
+.lefcategnav li { list-style: none; float: none; transition: all 0.3s; }
+.lefcategnav li a { display: block; padding: 7px 0px; color: #363636; font-weight: 600; position: relative; }
+.lefcategnav li:hover a { text-decoration: none; color: #8279fe; }
+.lefcategnav li .leftproduct_submenu {display: none; margin: 0px; padding: 0;  background: #fff;  transition: all 0.3s; }
+/*.lefcategnav li:hover .leftproduct_submenu { display: block; }*/
+.lefcategnav .leftproduct_submenu li { list-style: none; float: none; }
+.lefcategnav .leftproduct_submenu li a { display: block; padding: 10px 20px; }
+.lefcategnav li:hover .leftproduct_submenu li a { color: #363636; }
+.lefcategnav .leftproduct_submenu.activate { display: block !important; }
+@keyframes productsubmenu {
+	0% {
+		opacity: 0;
+		transform: translateY(10px);
+	}
+	50% {
+		opacity: 0.2;
+		transform: translateY(30px);
+	}
+	50% {
+		opacity: 1;
+		transform: translateY(50px);
+	}
+}
+
+/* Product Details */
+.products_shop { display: block; border: 1px solid #f1f1f1; background: #fff; margin-bottom: 30px; padding: 15px !important; }
+.products_shop:hover { box-shadow: 0px 0px 10px 0px rgba(47, 47, 47, 0.1); }
+.products_img { width: 100%; height: 250px; object-fit: contain; margin:auto; display: block; margin-bottom: 20px; border-radius: 6px;background-color: rgb(255, 255, 255); border-bottom: 1px solid #f1f1f1; padding-bottom: 20px; }
+.products_prodtitle { font-size: 15px;  color: #363636; }
+.products_shop a:hover .products_prodtitle { text-decoration: none; }
+.products_prodprice { color:#333; padding-bottom: 20px; font-weight: 600; display: block;  }
+.products_unit {width: 100%; line-height: 38px; font-size: 12px; font-weight: 600; font-family: inherit; color: #2d2d32; border-radius: 2px; border: 1px solid #f0f0f5;
+    padding: 0 10px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; text-transform: uppercase;  }
+.addproduct_btn { background: #fff; color: #8279fe; border-color: #8279fe; width: 100%; text-align: center; line-height: 33px; outline: none; text-transform: uppercase; transition: all 0.3s;  }
+.proddetail_hding { font-weight: 600; font-size: 17px; padding: 7px 0; text-transform: uppercase; }
+.proddetail_prgh { border-bottom: 1px solid #ddd; padding-bottom: 10px; color: #888;}
+.proddetail_list { margin: 0 0px 0 20px; padding: 0 0 10px; }
+.proddetail_list li { list-style: square; float: none; line-height: 1.8; color: #888; }
+
+.addproduct_btn:hover { box-shadow: inset -350px 0 #8279fe; color: #fff; transition: all 0.3s; }
+.prodetail_label { color: #bbbaba; margin: 0; padding-bottom: 5px; }
+.proddetail_cartbtn {background: #8279fe; color: #fff; font-weight: 600; border: none; outline: none; padding: 12px 0;  width: 100%; text-align: center; text-transform: uppercase; transition: all 0.3s;}
+.topmrgnbtn { margin-top: 15px; }
+.prodquantbtn { border: 1px solid #8279fe; width: 30%; float: left; padding:10px 0px; background: #fff; text-align: center; font-weight: 600; }
+.prodquantval { border: 1px solid #8279fe; width: 40%; float: left; background: #8279fe; color: #fff; font-weight: 600; text-align: center; padding: 10px 0px; }
+.prodquantbtn:focus { outline: none; }
+.prodcartbtn { position: relative; display: block; text-align: center; background: #8279fe; color: #fff !important; border-radius: 2px; font-size: 17px; margin-top: 14px; padding: 10px 0px;}
+.prodcartbtn i + span {    font-size: 11px; margin: 0 6px 0 0; display: inline-block; background: #fff; color: #8279fe; padding: 0 5px; border-radius: 4px;}
+.prodcartbtn:hover { text-decoration: none; }
+
+.paginationbg { background: #f9f9f9; padding: 10px 0; margin-bottom: 30px; }
+.pagination { margin: auto; padding: 0; width: 450px; }
+.pagination li  { list-style: none; float: left; }
+.pagination li a { color: #8279fe; padding: 5px 10px; display: block; font-weight: 600;  }
+.pagination li:hover a { text-decoration: none; }
+.pagination li.activepag a  { font-weight: 600; background: #8279fe; color: #fff; }
+
+/* review section */
+.review-header { background: #8279fe; }
+.review_hding { color: #fff; padding: 0; display: block; font-size: 20px; }
+.review_content { border: none !important; }
+.reviewtxtarea { width: 100%; border:none; border-bottom: 1px solid #ddd; margin-top: 20px; }
+.reviewtxtarea:focus { outline: none;  }
+.reviewbtn { float: right; margin:15px 0; }
+
+.review_cancel {color: #8279fe; padding-right: 20px;}
+.sendreivew_btn { border:none; background:transparent; outline: none; color: #8279fe; cursor: pointer; }
+.checked {
+    color: orange;
+}
+/* Star Rating */
+.rating-stars ul { list-style-type:none;  padding:0; -moz-user-select:none; -webkit-user-select:none;}
+.rating-stars ul > li.star { display:inline-block;}
+.rating-stars ul > li.star > i.fa { font-size:12px;  color:#ccc;}
+/* Hover state of the stars */
+.rating-stars ul > li.star.hover > i.fa { color:#FFCC36;}
+/* Selected state of the stars */
+.rating-stars ul > li.star.selected > i.fa { color:#FF912C;}
+
+/* Booking Appointment */
+.booking_appintment { background: #fff; padding: 20px; }
+
+/* Wrapper */
+.hding { font-size: 20px; color: #273344; font-weight: 600; padding: 25px 100px 15px 0; }
+.sideopen .mobleftslide{left: 50%;}
+.showmobicon { display: none; }
+.containerbg { background: #f6f6f7; }
+.readprofile { min-height:100px; text-overflow: ellipsis;   }
+.cart:hover { text-decoration: none; color:#fff; }
+.cart { position: relative; display: inline-block; text-align: center; background: transparent; color: #000 !important; border-radius: 2px; font-size: 17px; margin-top:14px; padding: 8px 15px; }
+.cart > span { font-size: 11px; margin:0 6px 0 0; display: inline-block; background: #353537; color: #fff; padding: 0 5px; border-radius: 4px; }
+.cart2 { position: relative; display: block; text-align: center;  font-weight: 600; font-size: 17px; margin-top:14px; padding: 8px 15px; color: #fff; float: right; }
+.cart2 > span { font-size: 11px; margin:0 6px 0 0; display: inline-block; background: #8279fe; color: #fff; padding: 0 5px; border-radius: 4px; position: absolute; right: -6px; top: 12px; }
+.primary-color { background:#8279fe !important;}
+.bredcrumb { padding: 15px 0; }
+.bredcrumb > i {position: relative; top: 3px;}
+.bredcrumb a { color: #363636 !important; }
+.leftnavhding { font-weight: 600; font-size: 18px; border-bottom: 1px solid #ddd; padding: 7px 0; text-transform: uppercase; }
+
+
+a { color: #0254EB  }  
+a:visited {  color: #0254EB  }  
+a.morelink {  text-decoration:none;  outline: none;  }  
+.morecontent span { display: none;  }  
+.comment { width: 400px;  background-color: #f0f0f0;  margin: 10px;  } 
+button:focus { outline: none !important; }
+
+.loginsection li a.welcome_name{
+	/*color: #8279fe;*/
+	color: #363636;
+    font-size: 12px;
+    text-align: left;
+    padding: 5px 5px 7px 15px;
+    transform: translate(0px, 1px);
+    /*padding-bottom: 0px;
+    */
+}
+
+.welcome_name > span { color:#888; font-size: 10px; padding-left: 5px; }
+.welcome_name > i { font-size: 16px; color: #8279fe; position: relative; top: 3px; }
+/* My Account Navigation */
+.loginarrow {position: absolute; right: 10px; top: 10px; font-size: 16px !important;}
+
+.loginsection li:hover .myaccountlist li a { background: none; border-radius:none; }
+.myaccountlist { display: none; margin: 2px 0 0;  width: 280px; padding: 15px; position: absolute; background: #fff; z-index: 11; box-shadow: 0px 1px 4px 0px #f7f7f7; -webkit-box-shadow: 0px 1px 4px 0px #f7f7f7; -moz-box-shadow: 0px 1px 4px 0px #f7f7f7;  }
+.myaccountlist li { list-style: none; width: 100%; float: none; border-right: none; }
+.myaccountlist li a { display: block; text-align: left; padding: 10px 0; font-size: 14px; border-radius:none; }
+.myaccountlist li:hover a { background: none; color: #8279fe; }
+.myaccountlist li a svg { margin-right: 8px; }
+.loginicon    { fill: #8279fe;  }
+
+/* Loader */
+/*.loader {  width: 150px;height: 150px; background: url(../images/loader.gif) no-repeat center; background-size: cover; margin: auto; position: fixed; left: 0;right: 0; top: 0; bottom: 0; }
+.container-fluid, .container, .carousel { opacity: 0; }
+.showdiv { opacity: 1; }*/
+
+/* My account Page */
+.myaccountbg {background: #fafafa; padding: 20px 0;}
+.mawraperbg { background: #fff; padding-bottom: 40px; margin-left: 0!important; box-shadow: 0 0 18px 0 rgba(218,212,212,0.04); -webkit-box-shadow: 0 0 18px 0 rgba(218,212,212,04); } 
+.matitle { font-size: 16px; font-weight: 600; padding: 22px 0 0; color: #777272; }
+.masavebtn { float: right; padding: 5px 15px; color: #fff; font-size: 16px; text-align: center; border: none; outline: none; border-radius: 4px; margin: 15px 0  0; background: #8279fe;}
+.rowoutline { border-bottom: 1px solid #ddd; padding-bottom: 15px; }
+.malabel { font-size: 14px; padding-top: 15px; color: #888; }
+.profileimg { background: #f9f9f9; border-radius: 50%; width: 100px;  height: 100px; }
+.maprofiletxt { font-size: 13px; padding-top: 10px; color: #888; }
+.maaddphoto { border: none;  font-weight: 600; outline: none; background: transparent; font-size: 14px; color: #369; }
+.editxtlft, .editxtrit {font-size: 14px;  padding-top: 15px; }
+.editxtlft { text-align: left; color: #888; }
+.editxtrit { float: right; color: #8279fe; font-weight: 600; }
+input:focus, select:focus {outline: none;}
+.myac-breadcrumb {font-size: 14px; padding: 22px 0 0; color: #777272;}
+.myac-breadcrumb > i { position: relative; top: 3px; }
+.myac-detect {position: absolute; right: 10px; top: 7px; cursor: pointer;} 
+.myac-detect > i { position: relative; top: 3px; }
+.myac-addfiel { padding-right: 75px !important; }
+
+/* Myaccount Tab */
+.myactab-midbg { background: #fff; margin-left: 0!important; box-shadow: 0 0 18px 0 rgba(218,212,212,0.04); -webkit-box-shadow: 0 0 18px 0 rgba(218,212,212,04); } 
+.myactab-content { margin: 0px 0 0; padding: 20px 0 15px 25px; border-left: 1px solid #ddd; min-height: 600px; }
+.myactab-content2 { margin: 0px 0 0; padding: 20px 0 15px 0px; min-height: 600px; }
+.myaccounttab { margin: 0px 0 0; padding: 20px 0 0; }
+.myaccounttab li { list-style: none; float: none; line-height: 2.5; }
+.myaccounttab li a { color: #888; }
+.myaccounttab li:hover a { text-decoration: none; color: #8279fe; }
+.myaccounttab li a.active {color: #8279fe; font-weight: 700;}
+.myaccounttab li a.active:before { content:"\6a"; font-family: "customad-font-2" !important; position: absolute; right: 0; color: #8279fe;}
+.myacnotifi-title {font-size: 14px; font-weight: 600; padding: 5px 0 10px; border-bottom: 1px solid #ddd; color: #777272;}
+.myacnotiprg {font-size: 14px; color: #777272;}
+.myacnotifihding { font-weight: 700; font-size: 14px; padding-left: 25px; margin: 0; cursor: pointer; }
+.myacnotifihding2 { font-size: 14px; padding-left: 25px; font-weight: 600; color: #807d7d; margin: 0; cursor: pointer; }
+.myacnotifihding > span, .myacnotifihding2 > span { font-weight: normal; clear: both; display: block; }
+.myacwhatnotifi {font-size: 14px; padding-left: 25px; color: #807d7d; margin: 0; cursor: pointer; }
+.myacnotifiprgh,.myacnotifiprgh1 { margin: 0; padding: 0 0  15px 25px; font-size: 14px;  color: #807d7d; }
+.myacnotifichk, .myacnotifichk2 { position: absolute; top: 4px;}
+.myacwhtnotifi {margin: 0; padding: 15px 15px  20px 25px;  font-size: 14px; color: #807d7d; }
+.myacradioprgh { font-size: 14px; margin-left: 25px; color: #807d7d;  cursor: pointer; line-height: 2.5; }
+.myacwhatunsbtn {position: absolute; top: 10px; }
+.unsublist { padding-left: 25px; display: none;}
+.mypassicon, .mynewpassicon, .myconfrmpassicon { position: absolute; right: 20px; bottom: 10px; color: #888; cursor: pointer; }
+#reasontextarea { display: none; }
+.moblisticon { display: none; padding: 10px 12px; font-size: 20px; cursor: pointer; color: #fff; background: #8279fe; float: right; margin-top:15px; }
+
+.myaccountapointab { margin: 0px 0 0; padding: 20px 0 0; }
+.myaccountapointab li { list-style: none; float: none; line-height: 2.5; }
+.myaccountapointab li a { color: #888; padding: 10px 15px; border: 1px solid #eeeeee; }
+.myaccountapointab li:hover a, .myaccountapointab li a.active {color: #ffffff; font-weight: 700; background: #8279fe;}
+
+/* My Appointments */
+.noappintment_img { margin: 40px auto 10px; display: block; }
+.noappointment_txt { text-align: center; font-size: 14px; }
+a.askdoctor { background: #8279fe; text-align: center; padding: 8px 25px; display: block; color: #fff; font-size: 20px; font-weight: 700; }
+a.askdoctor:hover { text-decoration: none; color: #fff; }
+.askdrimg {margin: 40px auto 0px; display: block; border-left: 1px solid #ddd; padding-bottom: 40px; width: 80%; padding-left: 30px;}
+.drbookimg{width: 100px; clear: both; display: block; padding-right: 10px;}
+.matable thead tr th { text-align: center; }
+.matable tbody tr td { vertical-align: middle; text-align: center; }
+.totalrecordtxt {font-size: 15px; padding-top: 15px;}
+.totalrecordtxt > span { font-weight: 600; }
+a.paginate_button.previous, a.paginate_button.next { background: #fff !important; outline: none !important; }
+a.paginate_button { background: #f9f9f9 !important; border: 1px solid #eae9e9 !important; outline: none;  padding: 5px 13px;}
+a.paginate_button.current {background: #8279fe !important; border: none !important; color: #fff!important;}
+ .addpagcolr { color: #fff !important; } 
+/* doctor booking appointment*/
+.drbookapnt { box-shadow: 0px 2px 8px #eee; padding: 50px 20px; background: #fff; }
+.coreticon { color: #8379fe; text-align: center; display: block; padding: 80px 0 0; font-size: 70px; }
+.thanks-hding { text-align: center; color: #635d5d; font-size: 24px; }
+.thanks-prgh { text-align: center; color:#635d5d; font-size: 18px; padding-bottom: 100px; }
+
+/* Cart */
+.cartimg { width: 100%; float: left; margin-top: 15px; height: 50px;  object-fit: contain; }
+.cartprhding { font-size: 16px; text-align: left; font-weight: 600; padding-top:20px; margin: 0; }
+.cartdetail {margin: 0; padding: 0;}
+.cartdetail li { list-style: none; float:none; color: #888; }
+.cartquan { text-align: center; margin-top:20px; }
+.cartprice {  padding-top: 28px; color: #333; text-align: center;}
+.cartpricefield {float: left; width: 80%; background: #fff; border: none;  margin-top: -5px;}
+.cartdelete { font-size: 20px;  color: #ddd;  text-align: center; display: block; padding-top: 28px; }
+.checkout {background: #8279fe; border: none; outline: none; color: #fff; padding: 8px 20px; text-align: center; display: inline-block; margin-top: 20px; border-radius: 3px; width: 100%;     font-weight: 600; font-size: 20px; letter-spacing: 1px;}
+.amtpayabal { padding-top: 20px; display: block; font-weight: 700; font-size: 20px; margin: 0;  padding: 0;}
+.cartprepage { font-size: 16px; color: #8279fe; padding: 20px 20px 0 0; display: block; text-align: right; }
+.cartscrol { overflow-y: auto; min-height: 100px; max-height: 450px; }
+.cartscrol::-webkit-scrollbar {
+    width: 0.3em;
+}
+.cartscrol::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+.cartscrol::-webkit-scrollbar-thumb {
+  background-color: #8279fe ;
+  outline: 1px solid #f1552b ;
+}
+
+/* tab scrollbar */
+.mobtabrespons::-webkit-scrollbar {
+    width: 5px;
+    height:4px;
+}
+.mobtabrespons::-webkit-scrollbar-track {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+.mobtabrespons::-webkit-scrollbar-thumb {
+  background-color: #8279fe ;
+  outline: 1px solid #f1552b ;
+}
+.mobtabrespons::webkit-scrollbar:vertical {
+  display: none;
+}
+
+/* Checkout */
+.checkoutbg { background: #fff; padding-bottom: 40px; margin-left: 0!important; min-height: 600px; /*box-shadow: 0 0 18px 0 rgba(218,212,212,0.04); -webkit-box-shadow: 0 0 18px 0 rgba(218,212,212,04);*/ } 
+.checkoutbgl { background: #f9f9f9; padding: 20px 0; margin-left: -15px; }
+.checkoutbgr { background: #f7f7f7; padding: 20px 15px; margin-top: 20px;  }
+.accordbox { margin-top:20px; }
+.accordlist { background: #5950dc; color: #fff; font-size: 16px; font-weight: 600; letter-spacing: 1px; padding: 10px 20px; cursor: pointer; }
+.accordesc { display: none; padding: 20px 20px; background: #f9f9f9; position: relative; }
+.accordactive { display: block; }
+.accordesc h1 { font-size: 16px;}
+.logincont_btn { background: #444; color: #fff; padding: 10px 25px; font-size: 16px; text-align: center; border: none; outline: none; margin-top: 15px; }
+.loginlisthding { color: #888; margin: 0; padding-bottom: 8px; }
+.loginlist { margin: 0; padding: 0; }
+.loginlist li { list-style: none; float: none; line-height: 2; color: #444; font-size: 14px; }
+.logindetail { margin: 0; padding: 0; }
+.logindetail li { list-style: none; float: none; line-height: 2; font-weight: 700; }
+.logindetail li .detail { padding-right: 15px; font-weight: normal; }
+.chklgosign { font-size: 14px; display: block; padding-top: 10px; font-weight: 600; }
+.cartadres { font-weight: 600; text-transform: capitalize; }
+.carthome { background: #eee; padding: 3px 5px; font-size: 13px; color: #888; font-weight: normal; }
+.cartfulladrs { font-size: 14px; color: #7f7979; }
+.chkoutextradr {font-weight: 600; display: block;  padding-top: 10px;}
+.chkoutedit { position: absolute; right: 20px; top: 10px; font-weight: 600; text-transform: uppercase; }
+.chkoutedit:hover, .chkoutextradr:hover { text-decoration: none; }
+.choutsentemil { padding: 25px 0 0; }
+.choutsentemil > span {background: #eee; padding: 3px 5px; font-size: 13px; color: #888; }
+.paymentmethodlist { margin: 0; padding: 0; }
+.paymentmethodlist li { line-height:2; list-style: none; float: none; }
+.paymentlist { color: #666; }
+.chkoutpricelist { margin: 0; padding: 0 0 15px; border-bottom: 1px dashed #ddd; }
+.chkoutpricelist li { list-style: none; float: none; line-height: 2; font-size: 14px; }
+.chkoutpricelist li > span { float: right; }
+.chkoutpricelist li > span.freedelivery { color: #37a025; }
+.chktotamt { font-weight: 600; font-size: 15px; padding: 10px 0; }
+.chktotamt > span { float: right; }
+.securetxt { color: #aba7a7; font-size: 14px; padding: 20px 0px; position: relative; }
+.securetxt > i { font-size: 22px; padding-top: 10px; padding-left: 15px; }
+.securetxt > span {position: absolute; left: 45px;}
+.paymentbtn { display: block; width: 100%; font-size: 16px; font-weight: 600; letter-spacing: 1px; border: none; outline: none; background:#37a025; padding: 10px 20px; text-align: center; color: #fff;  }
+.cardfield { width: 100%; padding: 5px 10px; border: 1px solid #ddd; border-radius: 2px;  }
+.ccbtn { background: #444; color: #fff; padding: 5px 25px; font-size: 16px; text-align: center; border: none; outline: none; }
+.ccbtn > i { font-size: 12px; }
+.cctxt { font-size: 14px; color: #888; padding: 5px 20px; }
+.chkoutccbox { display: none; }
+.netbankinghding { font-weight: 600; font-size: 18px; }
+.catbankimg { width: 20px; }
+.banklist { margin: 0; padding: 0; }
+.banklist li { list-style: none; float: left; padding-right: 20px; }
+.ckoutmodal_addhdr {background: #f5f4ff; color: #4e4a4a;}
+.modalcont_hidbordr { border: none !important; }
+.modalsignup-hdr { background: #f5f4ff; color: #4e4a4a; }
+.popularbanks_btn, .paymentmode { display: none; }
+.popularbanks_btn + label, .paymentmode + label { position: relative; padding-left: 20px; cursor: pointer; }
+.popularbanks_btn + label:before, .paymentmode + label:before { content: ''; position: absolute; left: 0; top: 6px; width: 15px; height: 15px; border: 1px solid #ddd; border-radius: 50%; }
+.popularbanks_btn:checked + label:before, .paymentmode:checked + label:before { content: ''; position: absolute; background: #fff; border:4px solid #5950dc; }
+.chkmoadricon { position: absolute; top: 38px; right: 10px;}
+.chkoutminus { position: relative; top: 3px; }
+.address_div { display: inline-block; }
+.rscolor { color: #666; }
+
+/* Loader on button */
+.spinner {
+    display: inline-block;
+    opacity: 0;
+    width: 0;
+    -webkit-transition: opacity 0.25s, width 0.25s;
+    -moz-transition: opacity 0.25s, width 0.25s;
+    -o-transition: opacity 0.25s, width 0.25s;
+    transition: opacity 0.25s, width 0.25s;
+}
+.has-spinner.active { cursor:progress;}
+.has-spinner.active .spinner {  opacity: 1; width: auto;}
+.has-spinner.btn.active .spinner {  min-width: 20px;}
+/* My Orders */
+.orderrowline { /*border-bottom: 1px solid #ddd; padding-bottom: 5px; */ margin-bottom: 15px; border: 1px solid #d0cccc; margin-left: 15px!important; margin-right: 15px !important; }
+.ordernumbg { background: #f9f9f9; margin-bottom: 10px; margin-left: -15px !important;  margin-right: -15px !important; }
+.ordernum { background: #8279fe; color: #fff; padding: 5px 10px; margin: 0; display: inline-block; }
+.ordernum2 { background: #8279fe; color: #fff; padding: 5px 10px; margin: 0; display:block; text-align: center; }
+.ordernum:hover { color: #fff; text-decoration: none; }
+.orderprhding {font-size: 14px; text-align: left; font-weight: 600; margin: 0;}
+.orderprhding2 {font-size: 14px; text-align: center; font-weight: 600; margin: 0; padding-top: 20px;}
+.orderimg {  width: 100%; float: left; margin-bottom: 5px; height: 50px;  object-fit: contain;}
+.deliveredtxt { font-size: 14px; padding-bottom: 5px; }
+.deliveredtxt > span {clear: both; display: block; color: #999;}
+.orderinr { font-size: 14px; color: #333; text-align: center;}
+.orderinr2 { font-size: 14px; color: #333; text-align: center; padding-top: 20px; font-weight: 600;}
+.orderreview { font-weight: 600; font-size: 14px; text-transform: uppercase; padding-bottom: 5px; display: block; }
+.orderreview > i { position: relative; top: 2px; }
+.orderdate { font-size: 14px; color: #999; margin: 0; padding: 5px 0 0; font-weight: 600; }
+.orderdate > span { color: #333; }
+.ordertotalinr {font-size: 14px; color: #999; text-align: right; margin: 0; padding: 5px 0 0; font-weight: 600;}
+.ordertotalinr > span { color: #333; }
+.orderdetailine { border-top:1px solid #ddd; border-bottom: 1px solid #ddd; }
+.rowmrgnlrzro { margin-left: 0px !important; margin-right: 0px!important; }
+.orderowbordr {border-bottom: 1px solid #ddd;  margin-top: 15px;}
+
+.myordetbg { background: #f9f9f9; padding: 20px 0; /*margin-bottom: 30px;*/ }
+.myordethding { font-size: 16px; font-weight: 600; padding-top: 10px; text-transform: capitalize; }
+.myordetprgh { font-size: 15px; }
+.myordetfon { font-size: 16px; }
+.myordetfon > span { font-weight: 600; }
+.myordetinvtxt { font-size: 14px; margin: 0; padding-top: 25px; }
+.myordetinvtxt > span { color: #8279fe; font-size: 24px; }
+.myordetinvtxt > span > i { position: relative; top: 6px; }
+.myordetinvbtn { border: 1px solid #ddd; padding: 10px 20px; display: inline-block; margin-top: 20px; }
+.myordetinvbtn:hover { text-decoration: none;   }
+
+.orderviewlist { margin: 0; padding: 20px 0 0; float: right; }
+.orderviewlist li { list-style: none; float: left; margin-left: 25px; }
+.orderviewlist li a { display: block; padding-top:0px; color: #333; text-decoration: none; }
+.orderviewlist li:hover a { text-decoration: none; }
+.orderviewlist li a > svg { width: 30px; fill: #8279fe; }
+.orderth { background:#8279fe; display: block; color: #fff; padding: 6px 0; text-align: center;  }
+.stars3 {margin: 4px 0px 0; padding: 0px;}
+.stars3 > span {font-size: 25px; color: #8279fe; cursor: pointer;}
+
+/* Datepicker */
+.datepickerappointment {display: block !important;
+    width: 100%  !important;
+    height: calc(1.5em + .75rem + 2px) !important;
+    padding: .375rem .75rem  !important;
+    font-size: 1rem  !important;
+    font-weight: 400  !important;
+    line-height: 1.5  !important;
+    color: #495057  !important;
+    background-color: #fff  !important;
+    background-clip: padding-box  !important;
+    border: 1px solid #ced4da  !important;
+    border-radius: .25rem  !important;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out  !important;}
+.datepickerappointment + .gj-icon { color: #8379fe; border-left: 1px solid #ced4da; padding: 7px 8px; }
+
+.appointment_loader { display: none; width: 100%; }
+.hos-pro-time button {font-size: 20px; text-transform: capitalize; background: #8279fe !important; color: #fff!important;}
+.hospviewprofile {font-size: 16px; font-weight: 600; padding:0px 0 0 !important;}
+.doctors_name > .check_icon { margin-bottom: 7px; }
+
+/* Doctor List */
+.doctorlistbox { margin: 15px 0; box-shadow: 0px 0px 6px #f5f5f5; }
+.doctorlistbox .drlistimg { width: 100%; height: 150px; overflow: hidden; object-fit: cover; } 
+.doctorlistbox .drdetailarea { padding: 0 15px 30px; }
+.doctorlistbox .drlistname { color: #8c84ec; font-size: 16px; font-weight: 600; padding: 10px 0px 0; margin: 0; display: block; }
+.doctorlistbox .drlistname:hover { text-decoration: none; color: #8c84ec; }
+.doctorlistbox .dredu { color: #969696; font-size: 14px; padding: 0px; margin: 0; }
+.doctorlistbox .drlistprofile { display: block; margin-top: 10px; padding: 10px 0; text-align: center; background:#8379fe; color: #fff; font-size: 18px; font-weight: 600;  }
+.doctorlistbox .drlistprofile:hover { text-decoration: none; color: #fff; }
+
+.select2-container { display: block!important; }
+
+/* autocomplete */
+.autocompletebox { display: none; width: 100%;  height: auto; font-size: 15px; overflow:auto; position: absolute; left: 0; top:44px; z-index: 99; background: #f9f9f9; box-shadow: 0px 4px 7px #999; border-radius: 0px 0px 4px 4px; }
+.autocompletebox > p { margin: 0px; padding: 0px 20px; }
+.autocompletebox > ul.autocomlist { margin: 0px 0 10px; padding:0 0px; }
+.autocompletebox > ul.autocomlist > li, .autocompletebox > ul.autocomlist > a li { list-style: none; float: none; line-height: 1.6; color:#666; padding-left: 20px; cursor: pointer; }
+.autocompletebox > ul.autocomlist > li:hover { background: #8279fe; color:#fff; }
+.autocomhding { font-weight: 600; font-size: 16px; margin: 0px; padding: 10px 20px; background: #efecec; }
+.autocompletebox::-webkit-scrollbar {
+    width: 0.3em;
+}
+.autocompletebox::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+.autocompletebox::-webkit-scrollbar-thumb {
+  background-color: #8279fe ;
+  outline: 1px solid #f1552b ;
+}
+
+/* package */
+.packagebox { border-radius: 4px; background: #fff; padding: 20px 20px 50px; margin-bottom: 15px; border:1px solid #eee; display: block; }
+.packagehding { font-size: 24px; font-weight: 700; color: #000; margin:0px; padding-top: 20px; }
+.packtitle { font-size: 18px; padding: 15px 0 0; margin:0px; }
+.packprice { font-size: 40px; font-weight: 700; margin:0px; }
+.packprice > span { font-size: 18px; font-weight: normal; color: #666; }
+.packageoff { font-size: 16px; background: #8c84ec80; color: #fff; margin: 0px; display: inline-block; }
+.packrenewamt { color: #666; font-size: 15px; }
+.packcart, a.packcart { padding: 10px 0px; font-size: 20px; text-align: center; text-transform: capitalize; background: #8c84ec; color: #fff;  display: block; text-decoration: none;}
+a.packcart:hover { text-decoration: none; color: #fff; background: #6860d2; transition: all 0.3s ease-in-out }
+.packagelist { margin: 0px; padding: 20px 0; }
+.packagelist li { list-style: none; float: none; font-size: 17px; line-height: 1.8; }
+.packagelist li > span { font-weight: 700; }
+.packagelist li.notallow { color: #999 !important; text-decoration: line-through; }
+.packagelist li a {background: #8279fe; color: #fff; padding: 5px 15px; margin-top: 15px; display: inline-block; border-radius: 2px;}
+.packagelist li:hover a { text-decoration: none; color: #fff; }
+
+/* Modal Div Table */
+.divtable { border:1px solid #ddd; }
+.tablehead { background: #000; color: #fff; display: block; clear: both; }
+.tabletr { display: block; clear: both; border-bottom: 1px solid #ddd; }
+.tabletr:nth-child(even) { background: #f9f9f9; }
+.tabletd { display: inline-block; width: 42%; padding: 5px; text-align: center;  }
+.tabletdsr {display: inline-block; width: 10%; padding: 5px; text-align: center;}
+
+/* Bootbox modal */
+.bootbox > .modal-dialog { border-radius: 4px !important;}
+.bootbox > .modal-dialog > .modal-content { border:none !important; min-height: 150px;    border-radius: 1px; }
+.bootbox > .modal-dialog > .modal-content > .modal-header {    background: #515157; color: #fff !important; padding: 5px 10px !important; border-top-left-radius:1px; border-top-right-radius:1px;}
+.bootbox > .modal-dialog > .modal-content > .modal-header > .bootbox-close-button {color: #fff !important;}
+/*.bootbox > .modal-dialog > .modal-content > .modal-body > .bootbox-body {text-align: center; padding: 15px 0;  font-size: 16px; font-family: 'PT Sans', sans-serif !important;}*/
+/*.bootbox > .modal-dialog > .modal-content > .modal-footer { display: none !important; justify-content: center !important; }*/
+.bootbox > .modal-dialog > .modal-content > .modal-footer > button.bootbox-accept { min-width:100px; }
+
+/* Pay for ohter */
+.pfo-rowpading { padding:100px 0; }
+.payforother {border:1px solid #ddd; height: 100px; width: 100%; background: #eb69a9; box-shadow: 0px 3px 6px #ddd;  border-radius:8px; display: flex; margin:15px 0; transition: all 0.2s ease-in-out; position: relative;}
+.payforotherbg2 { background: #8279fe; transition: all 0.4s ease-in-out; }
+.pfoleft { border-radius: 8px 0 0 8px; background-color: #fff; height: 100%; width: 130px; display: flex; justify-content: center; align-items: center; position: relative; transition: all 0.2s ease-in-out;}
+.pfoleft .pfoleftarrow { border-top:10px solid transparent; border-bottom: 10px solid transparent; border-left:10px solid #fff; position: absolute; right: -10px; transition: all 0.2s ease-in-out;}
+.pfoleft  i { text-align: center; display: block; font-size: 34px; }
+.pfoleft .iconcolr1 {color:#eb69a9;}
+.pfoleft .iconcolr2 {color:#8279fe;}
+.payforother .pfo-hding { font-size: 20px; font-weight: 700; text-align: left;  margin:0;  transition: all 0.2s ease-in-out;}
+.payforother .pfo-prgh { text-align: left; display: block; margin:0; transition: all 0.2s ease-in-out;}
+.pfo-txtarea { width: 100%; padding:25px 0 5px 30px; margin:0; color:#fff; }
+a:hover, a { text-decoration: none !important; }
+a.hovereffect1:hover .pfoleft { background: #eb69a9; }
+a.hovereffect1:hover .pfoleftarrow {border-left:10px solid #eb69a9;}
+a.hovereffect1:hover .payforother { background: #fff;  }
+a.hovereffect1:hover .iconcolr1 { color:#fff; }
+a.hovereffect1:hover .pfo-txtarea { color:#000; }
+
+a.hovereffect2:hover .pfoleft { background: #8279fe; }
+a.hovereffect2:hover .pfoleftarrow {border-left:10px solid #8279fe;}
+a.hovereffect2:hover .payforother { background: #fff;  }
+a.hovereffect2:hover .iconcolr2 { color:#fff; }
+a.hovereffect2:hover .pfo-txtarea { color:#000; }
+
+.pfmbox { width:100%; height: 100%; border-radius: 15px; border:1px solid #e3e3e3; box-shadow: 0px 0px 10px 2px rgba(245, 245, 245, 0.45); }
+.pfmimgbox {background: #369; width:100%; height: 100%; }
+.pfmbg {padding: 40px; border-radius: 15px;  background: #fff;  height: 100%; }
+.pfm-hding { color:#847cfe; font-size:20px; font-weight: 700; display: block; padding-top: 30px; }
+.prm-hdingline { font-size:18px; font-weight: 700; }
+.pfo-timer { position: absolute; right: 0px; top: 0px; background: #9d97f5; border-radius: 0 0 0 20px; }
+.uploaddoctxt {display: block; text-align: center; padding: 0px 0 40px; color:#999; cursor: pointer;}
+.uploadicon { text-align: center; font-size: 48px; color: #ddd; margin:0; }
+.otpbox {padding: 80px 40px; box-shadow: 0px 0px 2px 1px rgba(103,103,103,0.12);  background: #e3e1ff; height: 100%; position: relative;}
+.otphding { font-size: 22px; font-weight: 700; text-align: center; margin:0; }
+.otpprgh { font-size:16px; font-weight: normal; text-align: center; margin:0; padding-top:10px; padding-bottom:40px; }
+.otpinputpfo { text-align: center; display: block; font-size: 20px; border:none; border-bottom: 1px solid #ddd; width: 100%; }
+.otptimer {text-align: center; color:#fff; margin:0; padding: 10px; }
+.pforesendotp { background: none; border:none; text-align: center; display: block; font-weight: 500; margin: 20px auto 0; }
+.draganddropline { border:2px dashed #999; background: #f0f0f3 !important; }
+.skipbtn { border:none; background:none; display: inline-block; vertical-align: sub; padding: 0 20px; }
+.primarybt { background:#8279fe !important; color:#fff !important;  border-radius: 0px !important; }
+.pofmobimg { padding:30px; margin:30px auto 0; display: table; }
+ .nearestpharmacy { width: 100%; height: 100%; border-radius: 15px; border:1px solid #e3e3e3; box-shadow: 0px 0px 10px 2px rgba(245, 245, 245, 0.45); padding: 20px;}
+.pharmacyimg { width:100px; height: 100px; object-fit: cover; vertical-align: top; }
+.pharmacytxt-area { display: inline-block; padding-left: 20px; }
+.pharmacyname {color: #847cfe;  font-size: 20px; font-weight: 700; display: block;}
+.selctpaybox {width:100%; height: 100%; border:1px solid #e3e3e3; box-shadow: 0px 0px 10px 2px rgba(245, 245, 245, 0.45);}
+.selctpayhding { background: #ddd; padding:10px 15px; font-weight: 700; font-size: 18px; }
+.payradiobtn { vertical-align: middle; margin-right: 20px; }
+.paymentlist { margin:0; padding: 20px; }
+.paymentlist li { list-style: none; float: none; margin-bottom: 20px; position:relative; }
+.paymentlist li .paymentimg { width:30px; vertical-align: middle; margin-right: 10px; }
+.paymentlist li label { width: 100%; }
+.paymentlist li input + label {position:absolute; top:-20px; margin-left:3px; font-size:12px;}
+.proceedpayment { background:#8279fe; padding:10px 20px; color: #fff; border:none; margin-bottom: 20px; float:right; margin-right: 30px; }
+.successicon { font-size: 48px; color: #f30; text-align: center; }
+
+/* add to home screen button */
+.addtohome-button{ width:100%; display:flex; background:#fff; z-index:9; align-items:center; padding:10px; border:none; border-top:1px solid #ddd; position:fixed; bottom:0px; left:0; right:0;}
+.addtohome-button > img { width:50px; margin-right:15px;}
+
+#text_data { text-align:center;display:block;}
+
+/* consultation responsive */
+.consulttile { font-weight:700;}
+
+.pharmacy_char {margin:0 0 0px; padding:0px 0 10px; display:inline-block;}
+.pharmacy_char li { list-style:none; float:left; margin-right:5px; margin-bottom:5px;}
+.pharmacy_char li a { display:block; text-decoration:none; padding:5px 10px; border-radius:6px; background:#ddd; color:#333;}
+.pharmacy_char li:hover a, .pharmacy_char li.active-char a {background:#8279fe; color:#fff;}
+.pharmacylist-hding { color:#8279fe; font-weight:700; font-size:18px; padding:10px 0; display:block;}
+.pharmacylist { margin:0; padding:0;}
+.pharmacylist li { list-style:none; float:none; border-bottom:1px solid #ddd;}
+.pharmacylist li a { display:block; padding:10px; font-size:16px; color:#333;}
+.pharmacylist li:hover a { color:#8279fe;}
+.pharmacylist li:nth-child(odd) a {background:#f7f7f7;}
+
+/* Mobile wrapper */
+
+.mobsrch { padding-bottom:15px; border-bottom:1px solid #e0e0e0;}
+.header-location {font-size:13px; padding-top:15px;}
+.header-location > i { position:relative; top:2px;}
+.search-bar { box-sizing:border-box;width:100%;  padding:12px 10px; border-radius:4px; color:#b4b4be; border:1px solid #dedede; box-shadow:0 2px 4px 0 hsla(0,0%,85.5%,.5); }
+.search-bar-text {width:90%;display:inline-block;vertical-align:middle; }
+.search-bar .icon-ic_search {top:0px;position:relative;font-size:16px;float:right;}
+.fixsearch { background:#fff;}
+.mobfixsrch .modal-title { font-size:18px; font-weight:700; text-align:center;}
+.mobfixsrch .modal-dialog { margin:0px; height:100%;}
+.mobfixsrch .modal-content { border-radius:1px; border:1px solid #fff; height:100%;}
+.tabmap { width:100%; height:300px;}
+.mobtabrespons { overflow-y:hidden;}
+.mobhosthding { font-weight:700;}
+
+/* My appointment modal */
+.myappointmodal {padding:0; margin:0;}
+.myappointmodal .modal-dialog { border-radius:1px !important; }
+.myappointmodal .modal-content {border-radius:1px!important;}
+.myappointmodal .modal-body { padding:0;}
+.myappointmodal .lienbtn { border-radius:3px; font-size:12px; background:#369; color:#fff; padding:5px;}
+
+.purple-color { background-color:#a8a3e5 !important; border:1px solid #a8a3e5 !important;}
+.notice_error {padding:10px 15px; font-size:14px; color:#f30;}
+.btsloat-hding { padding:20px; display:block; text-align:center; font-size:16px; font-weight:700;}
+
+/* Time Sloat */
+.question-anscontainer{display:flex;flex-wrap:wrap;justify-content:center;align-items:stretch;color:#142f53;font-family:nunito,sans-serif;font-weight:300}
+.choose-ans{ margin-right:15px; flex-grow:1;}
+.choose-ans>input{display:none}
+.choose-ans>label{width:100%;cursor:pointer;font-family:nunito,sans-serif;font-size:14px;text-align:center;background-color:#e5f1fb;border-radius:4px;padding:6px 8px 6px 20px;color:#142f53;position:relative}
+.choose-ans>label:before{content:'';position:absolute;left:15px;top:9px;width:15px;height:15px;border-radius:50%;border:1px solid #142f53}
+.choose-ans:hover label,.choose-ans>input:checked+label{background-color:#b1d2ed;color:#142f53}
+.choose-ans:hover label:before,.choose-ans>input:checked+label:before{font-family:'font awesome 5 free';content:'';font-weight:900;background-color:#8279fe;border:1px solid #142f53}
+.choose-ans:hover label.diasable_data,label.diasable_data{background-color:#b4b4b4;color:#888;cursor:default}
+.choose-ans:hover label.diasable_data:before,label.diasable_data:before{font-family:'font awesome 5 free';content:'';font-weight:900;background-color:#b4b4b4;border:1px solid #888}
+
+@media only screen and (max-width: 320px){
+	.loginsection li a { font-size: 14px; }
+}	
+@media only screen and (max-width: 360px){
+	.callnow, .callnow2{font-size: 10px !important; font-weight: 600; padding:10px 0 0 10px;}
+	.deparment_btns button:last-child { padding-left: 8px !important; padding-top: 10px !important; }
+	.pharm_prodhding, .pharm_prodhding2 { font-size: 16px; padding: 15px 0 0 10px !important; }
+	.write_review { position: relative; top: 8px;}
+}
+@media only screen and (max-width: 380px){
+  .myaccountlist { margin-left: -40px; }
+}
+@media only screen and (max-width: 402px){
+	.homnearhos_img { height: 120px !important; }
+
+}
+@media only screen and (max-width: 480px){
+	/*.detect { display: none; }*/
+	.appbtn_pos { width: 300px; }
+	.appbtn { width: 35%; }
+	.downloadapp_hding { font-size: 14px; padding:15px 10px 20px; }
+	.loginsection li a { padding: 5px 15px; }
+	.myaccountlist li a { padding: 10px 0; }
+	.callnow, .callnow2{font-size: 14px; font-weight: 600;}
+	.logimg2 { width: 100%; }
+	.docoters_img_box_btns button { float: left;  }
+	.pharm_prodhding, .pharm_prodhding2 { font-size: 16px; padding: 35px 0 0 15px; }
+	.pharmaclist li > span, .pharmaclist2 li > span { position: relative; }
+	.pharmaclist li:last-child, .pharmaclist2 li:last-child { margin-bottom: 20px; } 
+	.pharmaclist li > i, .pharmaclist2 li > i { padding-right: 0px !important; }
+	.book_point_box button.bookappointment { margin-top: 0px !important; width: 100%; }
+	.orderprhding { font-size: 12px; }
+}
+
+@media only screen and (max-width: 575px){ 
+	.copyright_txt { text-align: center; }
+	.poweredby { text-align: center; padding-top: 0px; }
+  	.mawraperbg { margin-left: -15px !important; }
+  	.ordertotalinr { text-align: left; }
+	.orderinr { text-align: left; }
+	.callnow { font-size:12px;}
+	.homeselcity, .homelocdet { font-size:12px; padding:10px 15px 10px 25px;}
+	.homesearch > span.detect {font-size:11px; top:9px; right:5px;}
+	.homesearch > span.locicon, .homesearch2 > span.locicon { font-size:10px; top:12px; left:11px;}
+	
+}
+@media only screen and (min-width: 640px) and (max-width: 768px){
+	.downloadapp_hding { font-size: 23px;padding: 120px 40px 20px; }
+	.pharm_prodhding, .pharm_prodhding2 { font-size: 16px; padding: 35px 0 0 15px; }
+}
+
+@media only screen and (max-width: 767px){
+	.productlinkhide { display: block; }
+	.products_menu { width: 100%; display: none; position: absolute; background: #fff; z-index: 9; box-shadow: 0px 0px 3px #f7f7f7; }
+	.products_menu li {float: none;}
+	.products_menu li a { padding:15px 20px; }
+  .myactab-content { padding-left: 0; border-left: none; }
+  .mobmyactab { display: none; background: #f9f9f9; padding-bottom: 15px; }
+  .moblisticon { display: inline-block;  }
+  .myaccounttab li a.active:before { content: ""; }
+  .owl-carousel .owl-nav button.owl-next { right:15px; }
+    .owl-carousel .owl-nav button.owl-prev {  left: 15px; }
+    .docoters_img_box { padding:15px 0 7px;}
+    .docoters_img_box > img {height: 100px; width: 100px; object-fit: fill; border-radius:50%; }
+    .borderdoclist {border-top: 1px solid #ddd; padding-top: 10px;}
+    .hospital_p_shadow { box-shadow:none !important;}
+    .docoters_img_box_profile { padding:15px 0;}
+    .docoters_img_box_profile > img {height: 100px; width: 100px; object-fit: fill; border-radius:50%;}
+    .downloadapp_hding { padding:25px 40px 20px;}
+    .dowbloadaap_bg {padding:25px 0 0;}
+    .containerbg { padding-right:0px !important; padding-left:0px !important;}
+    .doctors_box_shadow { padding:5px 0px 10px !important;}
+    .viewprofilebtn { background:none; color:#8279fe !important; border:none; padding:0px 0 10px !important; font-size:13px;}
+    .viewprofilebtn:hover { box-shadow:none;}
+    .mobhosthding { padding:5px; font-size:14px; padding-top:20px; margin-bottom:0;}
+    .doctors_name p:nth-child(1) { font-size:14px !important; padding-top:30px !important;}
+    .hostpifacility li { line-height:2;}
+    .hostpifacility li > img { width:20px;}
+    .hostpicon { font-size:20px; top:9px;}
+    button.hostpitalbooking { width:100%;}
+    .mobtablist { width:280%; margin-bottom:10px;}
+    .mobtablist li a { font-size:12px;}
+    .hostabhding { font-size:14px;}
+    .hostabhding + p { font-size:14px;}
+    .nearhosp { height:auto;}
+    .tabmap { height:auto;} 
+    .hostablist, .hostabfaclity { margin-top:20px;}
+    .hostablist li, .hostabfaclity li { width:100%; line-height:2;}
+    .write_review { font-size:14px; padding:5px 10px; top:0; float:right;}
+    .profilecontlist li { font-size:14px; display:block;}
+    .profilecontlist li { font-size:14px; display:block;}
+    .footer_hding { font-size:14px;} 
+    .footer_nav li a { font-size:14px;}
+    .connectlist li a { padding:5px 10px 0;}
+    .cart { font-size:14px; padding:5px 10px;}
+    .hospviewprofile { font-size:14px;}
+    .doctors_box_shadow2 { margin-top:1.5rem;}
+    .doctors_name > .check_icon { font-size:14px;}
+    .doctors_name > .check_icon > span { padding:0px 5px !important; margin-right:5px !important;}
+    .doctors_name > .check_icon > span > i { font-size:7px !important; vertical-align:middle;}
+    .myaccountlist li a { font-size:13px;}
+    .myaccountlist li a svg { width:15px; height:15px;}
+    .input-border-none { border:none !important; padding:0 !important;}
+    .profileimg { width:50px; height:50px; float:right;}
+    .rowoutline { padding-bottom:0px;}
+    .colbotline { border-bottom:1px solid #ddd;}
+    .editxtlft, .malabel { font-size:13px; margin-bottom:0; padding-top:10px;}
+    .profileform input, .profileform select, .profileform .myac-detect { font-size:13px; } 
+    .profileform .adrstopmrgn { margin-top:-27px;}
+    .profileform .adritmrgn { margin-right:78px;}
+    .profileform .mobinput {width: 55%; float:right;   display: inline-block;  text-align: right;}
+    .profileform .form-control:disabled { background-color:#fff !important;} 
+    .gj-datepicker-bootstrap [role=right-icon] button { border:1px solid #fff !important;}
+    .gj-unselectable { width:65% !important; display:inline-flex !important; float:right: margin-top:4px; margin-right:-7px;}
+    .mobtabbtn { padding:.375rem .5rem !important; font-size:13px !important;}
+    .totalrecordtxt { padding-top:0px; font-size:13px;}
+    .myappointbg { background:#fafafa;}
+    .rowmobappintbg { background:#fff; border-bottom:1px solid #ddd; margin-bottom:15px; padding:10px 0;}
+    .mobappointimg { width:50px; height:50px; border-radius:50%;}
+    .appointhding { font-size:14px; color:#333; margin:0; font-weight:700; text-align:right;}
+    .appointsubhding { font-size:12px; color:#777; margin:0; text-align:right;}
+    .appointsubhding + p { margin:0; font-size:12px;}
+    a + p.appointsubhding { text-align:left!important;}
+    .pagehding { font-size:18px; font-weight:700; padding:10px 0; color:#8279fe;}
+    .tablehead { font-size:14px;}
+    .tabletdsr { width:13%;}
+    .tabletd2 { width:59%;}
+    .tabletd3 {width:25%;}
+    .mobsetingtab li { margin:5px 20px 5px 0;}
+    .mobsetingtab li  a { display:block; color:#333; font-size:14px; }
+    .mobsetingtab li  a.active { border-bottom:2px solid #8279fe;}
+    .prescription_modal { margin:auto !important;}
+    .loginhding {font-size:18px; padding-bottom:10px; color:#333; margin:0; font-weight:700;}
+    .pfo-rowpading {padding:30px 0 10px;}
+    
+}
+@media only screen and (max-width: 768px){
+	header {/*border-bottom: 1px solid #efebeb;*/  padding-bottom: 10px;}
+	.loginsection {/* float: right;*/}
+	.loginsection li {border-right: none;}
+	/*.loginsection li:last-child { display: none; }*/
+	/*.slidermrgn { display: none; }*/
+	.carousel-caption { bottom:0px !important; top: 5% !important; height: 100px; text-align: left !important; overflow:hidden; text-overflow: ellipsis; }
+	.carousel-caption > h5 { font-size: 26px; font-weight: 700; color: #273344; }
+	.carousel-caption > p { width: 80%; text-overflow: ellipsis; height: 150px; }
+	.hospitaladd, .hospitadd_txt2 { display: none; }
+	.owl-item { margin-right: 0px!important; }
+	.hospit_drname { font-size: 14px; }
+	.downloadapp_hding:before { display: none; }
+	.ftrrowmrgn { margin-top: 40px; }
+	.footer_nav { margin: -9px 0 10px; }
+	.footer_hding {font-size: 16px; padding: 10px 15px; background: #f9f9f9; margin: 5px 0 0 0;; }
+	.footer_nav { background: #f9f9f9; }
+	.footer_nav li a {padding: 5px 15px;}
+	[aria-expanded="true"]  span.downarrow, [aria-expanded="false"]  span.uparrow {display: none;}
+	[aria-expanded="false"]  span.downarrow, [aria-expanded="true"]  span.uparrow {display: inline-block; float: right;}
+	[aria-expanded="true"] h5  {display: block; color: #ff6600;}
+	.hding { font-size: 18px; }
+	.loginsection li:first-child a {border-radius: 20px !important;}
+	.owl-carousel2 .owl-nav button.owl-next, .owl-carousel2 .owl-nav button.owl-prev { display: none; }
+	.loginsection li { width: 100%; }
+	.myaccountlist li:last-child { display: block; }
+}
+
+@media only screen and (min-width: 403px) and (max-width: 480px){
+	.homnearhos_img { height: 160px !important; }
+}
+@media only screen and (min-width:769px) and (max-width: 991px) {
+	/*body {padding-bottom: 532px !important;}*/
+	.loginsection li a { padding: 5px 0px; }
+	.myaccountlist li a { padding: 10px 0; }
+
+}
+@media only screen and (max-width: 991px){
+	.navigation, .mobnavextra {  display: block; width: 95%; float: left; }
+	.navigation li, .mobnavextra li { float: none; list-style: none; }
+	.navigation li a { padding: 8px 23px 8px 25px; font-size:14px; }
+	.navigation li a > span {clear: none;  font-size: 13px;}
+	.mobnavextra { float: left; margin-left: -20px; }
+	.mobnavextra li a { padding: 8px 23px 8px 2px; color: #363636; display: block; font-weight: 600; }
+	.mobnavextra li a.mobapp { background: #f9f9f9;  display: block; margin: 10px 0 5px; }
+	.mobnavextra li a.mobapp > i { font-size: 26px; padding-left: 20px; vertical-align: super; }
+	.mobnavextra li a.mobapp > span { font-weight: 600; display: inline-block; }
+	.mobnavextra li a.mobapp > span > .lightclr { font-size: 14px; color: #ada8a8; font-weight: normal; clear: both; display: block; }
+	.navlogo { margin-top:2px; margin-left: 23px; display: block;}
+	.closenav { display: block; font-size: 24px; color: #dedbdb; position: absolute; right: 20px; top:20px; cursor: pointer; z-index: 99; }
+	.mobleftslide { background: #fff; opacity: 0; height: 100%; overflow: auto; position: fixed; top: 0; left: -95%; width: 95%; z-index: 99; box-shadow: 1px 0px 8px #ccc; }
+	.mobtop { background: #f9f9f9; padding: 5px; }
+	.mobhder { background:#fafafa; padding-bottom:10px;}
+	.logoimg { width:80%;}
+	.bodyoverlay { background: rgba(0,0,0,0.7); width: 100%; height: 100%; position: fixed; z-index: 9; left: 0; top: 0; display: none;  }
+	.showmobicon { display: inline-block; vertical-align: middle; padding-right: 5px; }
+
+	.topfilterfix { position: fixed; left: 0; top: 0; right:0; background: #fff; z-index: 5; }
+	.mobfilter { display: none; background: #fff; position: relative; width: 100%; height: 100%; position: fixed; left: 0; top: 0; z-index: 9; overflow: auto; transition: all 0.5s; }
+	.availtoppad { padding-top: 70px; }
+	.availbotpad { padding-bottom:  35px; }
+	.filterclose { display: block; color: #dcd6d6; padding-left: 15px; font-size: 24px; text-align: left; }
+	.filterhding { text-align: center; color: #8379fe; z-index: 9; padding:10px 0; margin: 0px; text-align: center;}
+	.filterreset { border:none; outline: none; background: none; z-index: 9; float: right; padding: 10px 15px;  }
+	.availab_hding { text-align: left; font-size: 13px; font-weight: 600; color: #333; }
+	.avilchkbox, .avilchkbox2 { color: #333; width: 100%; text-align: left; margin-bottom: 5px!important; position: relative; }
+	.mobfilterline { border-bottom: 2px solid #f9f9f9; margin-bottom: 15px; }
+	.avilchkbox input, .avilchkbox2 input { opacity: 0; z-index: 4;  position: absolute; margin-top: 4px; width: 100%; height: 15px;   }
+	.avilchkbox label:before { content: ''; position: absolute; left: 0; top: 4px;  width: 15px; height: 15px; border:1px solid #ddd; border-radius: 50%;  }
+	.avilchkbox label, .avilchkbox2 label { padding-left: 25px; }	
+	.avilchkbox input:checked + label:before {content: ''; background: #ddd; border:1px solid #8379fe; box-shadow: inset 0px 0px 0px 3px #f9fafb; background: #8379fe; transition: all 0.5s;}
+	.avilchkbox2 label:before { content: ''; position: absolute; left: 0; top: 4px;  width: 15px; height: 15px; border:1px solid #ddd;  }
+	.avilchkbox2 input:checked + label:before {content: ''; background: #ddd; border:1px solid #8379fe; box-shadow: inset 0px 0px 0px 3px #f9fafb; background: #8379fe; transition: all 0.5s;}
+	.availbtnbg { background: #fff; padding: 5px; position: fixed; left: 0; right: 0; bottom: 0; }
+	.availbtn { width: 100%; border:none; outline: none; background: #8379fe; color:#fff; padding: 10px 0; text-align: center; display: block; }
+	.showmobfilter { margin: 0; padding: 0; color: #fff; display: block; }
+	.doctor_navform { display: none; }
+	.doctors_name p:nth-child(1) {  padding-top: 5px;}
+	/*.leftnavhding, .lefcategnav { display: none; }*/
+	.plfr { display: none; }	
+	.swapmenu { position: absolute; right: -20px; height: 100%; width: 150px;}	
+	.subtotal_head_box { display: none; }
+	.carousel-item > img {height:120px;}
+	.hding { font-size:14px;}
+	.packageplanbox { box-shadow:0 1px 5px 0 rgba(0,0,0,.16); border-radius:8px; margin-bottom:20px;}
+	.packagehding { font-size:14px; font-weight:700; padding:15px 0 5px 10px;}
+	.packagelist { padding:0;}
+	.packagelist li { font-size:12px; color:#777; padding:0px 0 5px 10px;}
+	.labsname { font-size:12px; padding:0 10px;}
+	.homnearlab_img { height:100px; margin-top:15px; margin-bottom:15px;}
+	.pharmacy_hding { font-size:15px; padding:20px 0 0px 30px;}
+	.pharmlink { font-size:12px;}
+	.pharmacybg { min-height:120px; margin-bottom:15px; margin-top:20px;}
+	.homefirebr_hding { font-size:15px; padding:10px 0 0px 30px;}
+	.homefirebr_bg {padding:10px 20px 10px 0; min-height:120px;}
+	.copyright_txt { font-size:12px;}
+}	
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.loginsection li a { padding: 5px 0px; text-align: center;  }
+	/*.loginsection li:last-child { display: none; }*/
+	.loginsection li:first-child { border:none; width: 100% !important;  }
+	.loginsection li:first-child a {border-radius: 20px !important;}
+	.navigation li a { padding: 15px 4px; font-size: 15px;  }
+	.myaccountlist li a { padding: 10px 0; text-align: left; }
+	.navigation li a > span { font-size: 10px; }
+
+
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+	.pharmacy_hding { padding: 10px 0 0 30px; }
+	.downloadapp_hding{ padding: 110px 40px 20px; font-size: 23px; }
+	.downloadapp_hding:before { display: none; }
+}
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+	body { padding-bottom: 535px !important;}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+	.hideview { display: none; }
+}
+@media only screen and (min-width: 481px) {
+	.homeselcity {width: 79%;}
+}
+@media only screen and (min-width: 768px) {
+	.productlinkhide { display: none !important; }
+}
+@media only screen and (min-width: 769px) {
+	/*.homeviewall { display: none; }*/
+	.collapse { display: block!important; }
+	.callnow { padding-left: 30px; text-align: left; padding-left:10px; text-align:left; }
+	.logimg { /*margin-top:100px;*/ float: right;  }
+	footer {position: absolute; left: 0; right: 0; bottom: 0px;}
+}	
+@media only screen and (min-width: 992px) {
+	body { padding-bottom: 335px !important;}
+	.navigation li a > span { width:85px;}
+}
+@media only screen and (min-width: 1600px) {
+	.carousel-caption { left: 22%!important; top:25% !important; }
+}
+

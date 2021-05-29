@@ -1,0 +1,53 @@
+/*start modal-content prescription_modal*/
+.modal-dialog.prescription_modal{
+	max-width: 1000px!important;
+}
+.modal-footer button.btn.btn-Primary.my_appoint_btn{
+	background: #8279fe;
+	color: #fff;
+	border:0px;
+	padding: 10px 25px;
+}
+.modal-footer button.btn.btn-Primary.my_appoint_btn_close{
+	border:0px;
+	padding: 10px 25px;
+	background: #dbd9ff;
+	color: #8279fe;
+}
+
+.modal-footer button.btn.btn-Primary.my_appoint_btn_close:hover{
+	background: #8279fe;
+	color: #fff;
+	border:0px;
+	padding: 10px 25px;
+}
+.modal-footer button.btn.btn-Primary.my_appoint_btn:hover{
+	background: #dbd9ff;
+	color: #8279fe;
+}
+
+/*end modal-content prescription_modal*/
+
+/* Affilliation  Modal */
+.affilliation-modalcontent { border-radius: 1px; border: none;   }
+.affilliation-modalcontent > .modal-body { padding:0;}
+.affilliation-modalcontent .modalformbg { background:#f9f9fb; padding:30px 0;}
+.affilliation-modalcontent .affillation-modaltitle { text-align:center; padding:0px 0 30px; display:block; font-size:22px; color:#369; font-weight:700; text-transform:uppercase;}
+.affilliation-modalcontent > .modal-header { border-bottom:none;}
+.affilliation-modalcontent .affillation-label {  display:block; font-weight:700; padding-bottom:5px;}
+.affilliation-modalcontent .affilation-btn {margin-top:20px; border:none; background:#f30; font-size:15px; padding:12px 30px; color:#fff; text-align:center; transition:all 0.3s ease-in-out;}
+.affilliation-modalcontent .affilation-btn:hover { background:#e7390e; transition:all 0.3s ease-in-out;}
+.affilliation-modalcontent .affilation-btn:focus { border:none;}
+
+/*  */
+.dataTables_filter { float:right;}
+.btnfr { float:right; margin-right:10px; margin-top:10px;}
+.small-box-footer { padding-top:10px; display:block;}
+.covid_cancel{
+    display:none!important;
+}
+.bootbox-body .alert_msg {text-align:center; display:block; padding-top:10px;}
+.bootbox-body .alertok {margin-right:10px; padding:10px 15px; background:#f30;  border-radius:4px; color:#fff;}
+.bootbox-body .alertcancel {margin-right:10px; padding:10px 15px; background:#000;  border-radius:4px; color:#fff;}
+.bootbox-body .alert_div_class {text-align:center; display:block; padding-bottom:20px; padding-top:15px;}
+.bootbox-alert .modal-footer {display:none;}
